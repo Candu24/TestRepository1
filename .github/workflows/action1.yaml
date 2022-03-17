@@ -1,7 +1,7 @@
-name:action1
+name: action1
 on: [push]
 jobs:
-  basicinfo
+  
   rons-on: ubuntu-lastest
   steps:
     -uses: actions/checkout@v2
