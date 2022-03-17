@@ -1,0 +1,9 @@
+name:action1
+on: [push]
+jobs:
+  basicinfo
+  rons-on: ubuntu-lastest
+  steps:
+    -uses: actions/checkout@v2
+    -run: printenv
+    -run: ls -ltr
